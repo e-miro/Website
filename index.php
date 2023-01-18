@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
-
+        <link rel="icon" type="image/x-icon" href="res/m.ico">
         <title>Miro Home</title>
 
         <link rel="stylesheet" type="text/css" href="style.css">

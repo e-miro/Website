@@ -1,6 +1,7 @@
 <html>
 <head>
 <title>Verbosity</title>
+<link rel="icon" type="image/x-icon" href="res/m.ico">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
