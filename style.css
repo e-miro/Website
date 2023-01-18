@@ -1,0 +1,191 @@
+body{
+    color:#FFFFFF;
+    background: #BBCDE5;
+    display:flex;
+    justify-content:center;
+    font-family: sans-serif;
+    margin: 0px;
+    overflow-y: scroll;
+    
+}
+
+.main{
+    background:#2A3D45;
+    height: 100%;
+    width: 60vw;
+    display:flex;
+    position:absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+button{
+    max-width: 90%;
+}
+
+#dictLogo{
+    max-width: 10vw;
+    padding-top: 10px;
+}
+
+h1{
+    margin-top:5vh;
+    font-size: 250%;
+}
+#subheading{
+    line-height: 1.5;
+    font-weight: normal;
+    font-size:165%;
+}
+p{
+    line-height: 2;
+    font-size: 100%;
+}
+#who-I-am{
+    padding-right: 10px;
+}
+
+#text-container{
+    height: 66%;
+    padding: 5px;
+    margin: 0;
+}
+
+header{
+    display:flex;
+    justify-content:center;
+    max-width: 50%;
+    padding-top: 5vh;
+    margin: 0px;
+}
+
+.verb-holder{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    max-width: 50%;
+    padding: 0px;
+    margin: 0px;
+}
+
+form{
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: #2A3D45;
+}
+
+input{
+    margin:10px;
+    text-align: left;
+}
+
+input{
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+a{
+    color: #E06D06;
+    text-decoration: none;
+}
+
+h1{
+    color: #E06D06;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+div#contact-box{
+    background: #639FAB;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    min-height: 60px;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: #2A3D45;
+    position: sticky;
+    padding-top: 0.5vh;
+    bottom: 3vh;
+    width: 50%
+}
+
+div#contact-holder{
+    height: 33%;
+    width: 100%;
+    padding: 5vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.icon{
+    max-height: 50px;
+}
+
+.icon:hover{
+    filter:invert();
+}
+
+img#portrait{
+    margin-top: 5vh;
+    height: 50%;
+    max-height: 300px;
+    width: 50%;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 1100px) {
+    #header{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        max-width: 75%;
+    }
+    #text-container{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .verb-main{
+        width: 80%;
+    }
+    .verb-explain{
+        font-size: 300%;
+    }
+    
+    img#portrait{
+        height: 75%;
+        width: 75%;
+        max-height: fit-content;
+    }
+    h1{
+        font-size:450%;
+    }
+
+    p{
+        font-size: 150%;
+    }
+    #subheading{
+        font-size:300%;
+    }
+
+    .main{
+        width: 80%;
+        height: fit-content;
+        min-height: 100%;
+    }
+
+    div#contact-box{
+        width: 49.5%
+    }
+
+  }
